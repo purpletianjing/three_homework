@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background: url(../images/background.jpg);
+}
+
+hr {
+	border-width: 1px;
+	color: #000;
+	width: 100%;
+}
+
+header {
+	width: 30%;
+	text-align: center;
+	float: left;
+}
+
+#headerimage {
+	width: 100%;
+}
+
+.left-introduction {
+	font-size: 20px;
+	display: inline;
+}
+
+#center {
+	text-align: center;
+	width: 70%;
+	font-size: 25px;
+	float: right;
+}
+
+.display_block {
+	display: inline-block;
+	width: 30%;
+}
+
+.fruit_image {
+	width: 100%;
+	height: 200px;
+}
+
+#bottom {
+	float: right;
+}
+
+@media screen and (max-width: 875px) {
+	header {
+		width: 100%;
+	}
+
+	#center {
+		width: 100%;
+	}
+
+	.display_block {
+		width: 100%;
+	}
+}
