@@ -61,4 +61,8 @@ header {
 	.display_block {
 		width: 100%;
 	}
+
+	.fruit_image {
+		height: 500px;
+	}
 }
